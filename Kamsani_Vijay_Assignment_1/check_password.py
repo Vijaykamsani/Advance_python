@@ -30,7 +30,7 @@ def at_least_digits(d):
 
 
 if __name__ == '__main__':
-    password = input("enter the password")
+    password = input("Enter your password for the confirmation")
     if password_check(password):
         print("is valid password ")
     else:
